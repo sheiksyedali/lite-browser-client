@@ -17,7 +17,8 @@ public class BrowserWindow extends JFrame {
     }
 
     private void buildBrowserWindowUI(){
-        getContentPane().add(liteBrowserClient.getAddress_(), BorderLayout.NORTH);
+//        getContentPane().add(liteBrowserClient.getAddress_(), BorderLayout.NORTH);
+        getContentPane().add(new URLBarPanel(liteBrowserClient), BorderLayout.NORTH);
         getContentPane().add(liteBrowserClient.getBrowserUI(), BorderLayout.CENTER);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setUndecorated(true);
@@ -41,7 +42,6 @@ public class BrowserWindow extends JFrame {
         KeyboardFocusManager.getCurrentKeyboardFocusManager().addKeyEventDispatcher(new KeyEventDispatcher() {
             @Override
             public boolean dispatchKeyEvent(KeyEvent e) {
-                System.out.println(e.getKeyCode()+": "+e.getKeyChar());
                 if (e.getKeyCode() == KeyEvent.VK_F4 && (e.getModifiers() & KeyEvent.ALT_MASK) != 0) {
                     return true; // Consume the Alt+F4 key event
                 } else  if (e.getKeyCode() == KeyEvent.VK_TAB && (e.getModifiers() & KeyEvent.ALT_MASK) != 0) {
@@ -69,33 +69,24 @@ public class BrowserWindow extends JFrame {
 
             @Override
             public void windowLostFocus(WindowEvent e) {
-                System.out.println("Focus lost");
+//                System.out.println("Focus lost");
 
-                //toFront();
-                System.out.println("sheik: "+liteBrowserClient.getBrowser().getFocusedFrame().getName());
-                System.out.println("sheik"+liteBrowserClient.getBrowser().getFrameIdentifiers());
-                JFrame lostFocusFrame = (JFrame) e.getSource();
-                lostFocusFrame.toFront();
-
-                JOptionPane.showMessageDialog(null, "Window lost");
+//                System.out.println("sheik: "+liteBrowserClient.getBrowser().getFocusedFrame().getName());
+//                System.out.println("sheik"+liteBrowserClient.getBrowser().getFrameIdentifiers());
+//                JFrame lostFocusFrame = (JFrame) e.getSource();
+//                lostFocusFrame.toFront();
+//
+//                JOptionPane.showMessageDialog(null, "Window lost");
             }
         });
 
-        try{
-            InetAddress googleAddress = InetAddress.getByName("www.google.com");
-            boolean isReachable = googleAddress.isReachable(3000); // Timeout in milliseconds
-            if(isReachable){
-                JOptionPane.showMessageDialog(null, "Internet available");
-            } else {
-                JOptionPane.showMessageDialog(null, "Internet not reachable");
-            }
-            System.out.println("Internet connection available: " + isReachable);
 
-        } catch (Exception ex){
-            ex.printStackTrace();
-        }
 
 
     }
 
+    public void dispose(){
+        CefApp.getInstance().dispose();
+        dispose();
+    }
 }

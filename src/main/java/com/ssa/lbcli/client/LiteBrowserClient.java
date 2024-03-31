@@ -9,17 +9,9 @@ import me.friwi.jcefmaven.UnsupportedPlatformException;
 import org.cef.CefApp;
 import org.cef.CefClient;
 import org.cef.browser.CefBrowser;
-import org.cef.browser.CefFrame;
 import org.cef.browser.CefMessageRouter;
-import org.cef.handler.CefDisplayHandlerAdapter;
-import org.cef.handler.CefFocusHandlerAdapter;
-import org.cef.handler.CefLifeSpanHandlerAdapter;
-
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.io.IOException;
-import java.net.InetAddress;
 
 /**
  * Author: Sheik Syed Ali
@@ -27,7 +19,7 @@ import java.net.InetAddress;
 public class LiteBrowserClient {
 
     private static final long serialVersionUID = -5570653778104813836L;
-    private JTextField address_;
+//    private JTextField address_;
     private CefApp cefApp_;
     private CefClient client_;
     private CefBrowser browser_;
@@ -74,42 +66,42 @@ public class LiteBrowserClient {
 
         browser_ = client_.createBrowser(startURL, useOSR, isTransparent);
 
-        String javascriptCode = "var constraints = { video: { width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } };"
-                + "navigator.mediaDevices.getUserMedia(constraints)"
-                + ".then(function(stream) { /* Handle success */ })"
-                + ".catch(function(error) { /* Handle error */ });";
-
-        browser_.executeJavaScript(javascriptCode, null, 0);
+//        String javascriptCode = "var constraints = { video: { width: { ideal: 1920 }, height: { ideal: 1080 }, frameRate: { ideal: 30 } } };"
+//                + "navigator.mediaDevices.getUserMedia(constraints)"
+//                + ".then(function(stream) { /* Handle success */ })"
+//                + ".catch(function(error) { /* Handle error */ });";
+//
+//        browser_.executeJavaScript(javascriptCode, null, 0);
         browerUI_ = browser_.getUIComponent();
 
-        address_ = new JTextField(startURL, 100);
-        address_.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                browser_.loadURL(address_.getText());
-            }
-        });
+//        address_ = new JTextField(startURL, 100);
+//        address_.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                browser_.loadURL(address_.getText());
+//            }
+//        });
 
-        client_.addDisplayHandler(new CefDisplayHandlerAdapter() {
-            @Override
-            public void onAddressChange(CefBrowser browser, CefFrame frame, String url) {
-                address_.setText(url);
-            }
-        });
+//        client_.addDisplayHandler(new CefDisplayHandlerAdapter() {
+//            @Override
+//            public void onAddressChange(CefBrowser browser, CefFrame frame, String url) {
+//                address_.setText(url);
+//            }
+//        });
 
         // Clear focus from the browser when the address field gains focus.
-        address_.addFocusListener(new FocusAdapter() {
-            @Override
-            public void focusGained(FocusEvent e) {
-                if (!browserFocus_) return;
-                browserFocus_ = false;
-                KeyboardFocusManager.getCurrentKeyboardFocusManager().clearGlobalFocusOwner();
-                address_.requestFocus();
-            }
-        });
+//        address_.addFocusListener(new FocusAdapter() {
+//            @Override
+//            public void focusGained(FocusEvent e) {
+//                if (!browserFocus_) return;
+//                browserFocus_ = false;
+//                KeyboardFocusManager.getCurrentKeyboardFocusManager().clearGlobalFocusOwner();
+//                address_.requestFocus();
+//            }
+//        });
 
         // Clear focus from the address field when the browser gains focus.
-        client_.addFocusHandler(new BrowserFocusHandlerAdapter(browserFocus_));
+        client_.addFocusHandler(new BrowserFocusHandlerAdapter(this));
 
     }
 
@@ -121,9 +113,21 @@ public class LiteBrowserClient {
         return browser_;
     }
 
-    public JTextField getAddress_(){
-        return address_;
+    public CefClient getCefClient(){
+        return client_;
     }
+
+    public boolean isBrowserFocus(){
+        return browserFocus_;
+    }
+
+    public void setBrowserFocus(boolean focus){
+        browserFocus_ = focus;
+    }
+
+//    public JTextField getAddress_(){
+//        return address_;
+//    }
 
 
 }
