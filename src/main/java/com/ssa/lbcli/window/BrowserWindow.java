@@ -1,13 +1,16 @@
 package com.ssa.lbcli.window;
 
 import com.ssa.lbcli.client.LiteBrowserClient;
+import com.ssa.lbcli.listeners.BrowserFocusListener;
 import org.cef.CefApp;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.net.InetAddress;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class BrowserWindow extends JFrame {
     private LiteBrowserClient liteBrowserClient;
     public BrowserWindow(LiteBrowserClient liteBrowserClient){
@@ -61,28 +64,7 @@ public class BrowserWindow extends JFrame {
             }
         });
 
-        addWindowFocusListener(new WindowFocusListener() {
-            @Override
-            public void windowGainedFocus(WindowEvent e) {
-                System.out.println("Focus gained");
-            }
-
-            @Override
-            public void windowLostFocus(WindowEvent e) {
-//                System.out.println("Focus lost");
-
-//                System.out.println("sheik: "+liteBrowserClient.getBrowser().getFocusedFrame().getName());
-//                System.out.println("sheik"+liteBrowserClient.getBrowser().getFrameIdentifiers());
-//                JFrame lostFocusFrame = (JFrame) e.getSource();
-//                lostFocusFrame.toFront();
-//
-//                JOptionPane.showMessageDialog(null, "Window lost");
-            }
-        });
-
-
-
-
+        addWindowFocusListener(new BrowserFocusListener(liteBrowserClient));
     }
 
     public void dispose(){

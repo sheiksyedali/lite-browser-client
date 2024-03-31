@@ -3,10 +3,13 @@ package com.ssa.lbcli.listeners;
 import com.ssa.lbcli.client.LiteBrowserClient;
 import com.ssa.lbcli.window.URLBarPanel;
 
-import javax.swing.*;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class URLBarEvtListener implements ActionListener {
     private URLBarPanel urlBarPanel;
     private LiteBrowserClient liteBrowserClient;
@@ -19,14 +22,18 @@ public class URLBarEvtListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == urlBarPanel.getUrlField()){
-            liteBrowserClient.getBrowser().loadURL(((JTextField) e.getSource()).getText());
-            System.out.println("Url field");
-
+            loadAndDisable();
         } else if(e.getSource() == urlBarPanel.getGoButton()){
-            System.out.println("go button");
-
+            loadAndDisable();
         } else if(e.getSource() == urlBarPanel.getFinishButton()){
             System.exit(0);
         }
+    }
+
+    private void loadAndDisable(){
+        liteBrowserClient.getBrowser().loadURL(urlBarPanel.getUrlField().getText());
+        urlBarPanel.getUrlField().setEditable(false);
+        urlBarPanel.getGoButton().setEnabled(false);
+
     }
 }

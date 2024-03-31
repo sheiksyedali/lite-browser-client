@@ -4,6 +4,9 @@ import org.cef.browser.CefBrowser;
 import org.cef.browser.CefFrame;
 import org.cef.handler.CefLifeSpanHandlerAdapter;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class BrowserLifeSpanHandler extends CefLifeSpanHandlerAdapter {
     @Override
     public boolean onBeforePopup(CefBrowser browser, CefFrame frame, String target_url, String target_frame_name) {

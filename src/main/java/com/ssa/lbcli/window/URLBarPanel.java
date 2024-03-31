@@ -11,6 +11,9 @@ import java.awt.*;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class URLBarPanel extends JPanel {
     private JTextField urlField;
     private JButton goButton;

@@ -3,10 +3,15 @@ package com.ssa.lbcli.startup;
 import javax.swing.*;
 import java.net.InetAddress;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class StartUpChecker {
 
     public boolean isEligible(){
-        boolean temp = disabledInternet() && noVMHost();
+        disabledInternet();
+        noVMHost();
+        //change this later to check both
         return true;
     }
 
@@ -31,6 +36,11 @@ public class StartUpChecker {
 
     public boolean noVMHost(){
         boolean noVM = true;
+        String osName = System.getProperty("os.name");
+        String vmName = System.getProperty("java.vm.name");
+
+        System.out.println("OS: " + osName);
+        System.out.println("VM : " + vmName);
         return noVM;
     }
 

@@ -6,6 +6,9 @@ import org.cef.handler.CefFocusHandlerAdapter;
 
 import java.awt.*;
 
+/**
+ * Author: Sheik Syed Ali
+ */
 public class BrowserFocusHandlerAdapter extends CefFocusHandlerAdapter {
 
     private LiteBrowserClient liteBrowserClient;
