@@ -20,6 +20,8 @@ public class LiteBrowserClientApp {
             BrowserWindow browserWindow = new BrowserWindow(liteBrowserClient);
 
             new ScheduleManager().schedule();
+        } else {
+            System.exit(0);
         }
     }
 }

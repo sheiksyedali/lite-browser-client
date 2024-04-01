@@ -9,22 +9,22 @@ import java.net.InetAddress;
 public class StartUpChecker {
 
     public boolean isEligible(){
-        disabledInternet();
+        //disabledInternet();
         noVMHost();
         //change this later to check both
-        return true;
+        return disabledInternet();
     }
 
-    public boolean disabledInternet(){
+    public static boolean disabledInternet(){
         boolean isInternetDisabled = true;
         try{
             InetAddress googleAddress = InetAddress.getByName("www.google.com");
             boolean isReachable = googleAddress.isReachable(3000); // Timeout in milliseconds
             if(isReachable){
-                JOptionPane.showMessageDialog(null, "Internet available");
+                JOptionPane.showMessageDialog(null, "Internet available, Going to terminate");
                 isInternetDisabled = false;
             } else {
-                JOptionPane.showMessageDialog(null, "Internet not reachable");
+//                JOptionPane.showMessageDialog(null, "Internet not reachable");
             }
             System.out.println("Internet connection available: " + isReachable);
 

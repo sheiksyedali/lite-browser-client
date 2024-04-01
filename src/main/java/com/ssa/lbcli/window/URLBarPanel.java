@@ -61,7 +61,7 @@ public class URLBarPanel extends JPanel {
         goButton.addActionListener(evtListener);
         add(goButton);
 
-        finishButton = new JButton("Finish");
+        finishButton = new JButton("End Session");
         finishButton.addActionListener(evtListener);
         add(finishButton);
     }
