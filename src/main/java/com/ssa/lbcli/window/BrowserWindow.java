@@ -20,7 +20,7 @@ public class BrowserWindow extends JFrame {
     }
 
     private void buildBrowserWindowUI(){
-//        getContentPane().add(liteBrowserClient.getAddress_(), BorderLayout.NORTH);
+        setTitle("Lite Browser Client");
         getContentPane().add(new URLBarPanel(liteBrowserClient), BorderLayout.NORTH);
         getContentPane().add(liteBrowserClient.getBrowserUI(), BorderLayout.CENTER);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -29,7 +29,7 @@ public class BrowserWindow extends JFrame {
     }
 
     private void addListeners(){
-        Toolkit.getDefaultToolkit().addAWTEventListener(new AWTEventListener() {
+        /*Toolkit.getDefaultToolkit().addAWTEventListener(new AWTEventListener() {
             @Override
             public void eventDispatched(AWTEvent event) {
                 if (event instanceof WindowEvent) {
@@ -50,9 +50,30 @@ public class BrowserWindow extends JFrame {
                 } else  if (e.getKeyCode() == KeyEvent.VK_TAB && (e.getModifiers() & KeyEvent.ALT_MASK) != 0) {
                     return true; // Consume the Alt+F4 key event
                 } else if(e.getKeyCode() == 524){
+                    e.consume();
+                    toFront();
+                    requestFocus();
                     return true;
                 }
                 return false;
+            }
+        });*/
+
+        /*addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+                System.out.println(e.getKeyCode());
+                e.consume();
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+
             }
         });
 
@@ -62,7 +83,7 @@ public class BrowserWindow extends JFrame {
                 CefApp.getInstance().dispose();
                 dispose();
             }
-        });
+        });*/
 
         addWindowFocusListener(new BrowserFocusListener(liteBrowserClient));
     }

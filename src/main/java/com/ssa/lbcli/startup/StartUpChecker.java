@@ -1,18 +1,26 @@
 package com.ssa.lbcli.startup;
 
+import com.ssa.lbcli.process.ProcessManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.swing.*;
+import java.io.IOException;
 import java.net.InetAddress;
 
 /**
  * Author: Sheik Syed Ali
  */
 public class StartUpChecker {
+    private final Logger logger = LogManager.getLogger(StartUpChecker.class);
 
     public boolean isEligible(){
-        //disabledInternet();
+        ProcessManager.kill();
+        disableKeys();
         noVMHost();
         //change this later to check both
         return disabledInternet();
+//        return true;
     }
 
     public static boolean disabledInternet(){
@@ -39,9 +47,19 @@ public class StartUpChecker {
         String osName = System.getProperty("os.name");
         String vmName = System.getProperty("java.vm.name");
 
-        System.out.println("OS: " + osName);
-        System.out.println("VM : " + vmName);
+        logger.info("OS: " + osName);
+        logger.info("VM : " + vmName);
         return noVM;
+    }
+
+    private boolean disableKeys(){
+        try {
+            Runtime.getRuntime().exec("scripts\\AutoHotKey.exe scripts\\script.ahk");
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true;
     }
 
 }

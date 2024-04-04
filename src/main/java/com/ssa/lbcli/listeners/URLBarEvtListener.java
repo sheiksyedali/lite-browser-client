@@ -26,7 +26,9 @@ public class URLBarEvtListener implements ActionListener {
         } else if(e.getSource() == urlBarPanel.getGoButton()){
             loadAndDisable();
         } else if(e.getSource() == urlBarPanel.getFinishButton()){
-            System.exit(0);
+            new ShutdownListener().shutDown(true);
+        } else if(e.getSource() == urlBarPanel.getExitButton()){
+            new ShutdownListener().shutDown(false);
         }
     }
 
@@ -34,6 +36,6 @@ public class URLBarEvtListener implements ActionListener {
         liteBrowserClient.getBrowser().loadURL(urlBarPanel.getUrlField().getText());
         urlBarPanel.getUrlField().setEditable(false);
         urlBarPanel.getGoButton().setEnabled(false);
-
     }
+
 }

@@ -1,10 +1,12 @@
 package com.ssa.lbcli.listeners;
 
 import com.ssa.lbcli.client.LiteBrowserClient;
+import com.ssa.lbcli.process.ProcessManager;
 
 import javax.swing.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
+import java.io.IOException;
 
 /**
  * Author: Sheik Syed Ali
@@ -17,19 +19,22 @@ public class BrowserFocusListener implements WindowFocusListener {
     }
     @Override
     public void windowGainedFocus(WindowEvent e) {
-        System.out.println("Focus gained");
     }
 
     @Override
     public void windowLostFocus(WindowEvent e) {
-        System.out.println("Focus lost");
 
-        System.out.println("sheik: "+liteBrowserClient.getBrowser().getFocusedFrame().getName());
-        System.out.println("sheik"+liteBrowserClient.getBrowser().getFrameIdentifiers());
-        JFrame lostFocusFrame = (JFrame) e.getSource();
-        lostFocusFrame.toFront();
+        ProcessManager.backToDaddy();
 
-        JOptionPane.showMessageDialog(null, "You are switched to another window, Application going to shutdown");
+//        System.out.println("Focus lost");
+
+
+//        System.out.println("sheik: "+liteBrowserClient.getBrowser().getFocusedFrame().getName());
+//        System.out.println("sheik"+liteBrowserClient.getBrowser().getFrameIdentifiers());
+//        JFrame lostFocusFrame = (JFrame) e.getSource();
+//        lostFocusFrame.toFront();
+//
+//        JOptionPane.showMessageDialog(null, "You are switched to another window, Application going to shutdown");
 
     }
 }

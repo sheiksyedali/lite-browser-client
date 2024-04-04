@@ -19,6 +19,8 @@ public class URLBarPanel extends JPanel {
     private JButton goButton;
     private JButton finishButton;
 
+    private JButton exitButton;
+
     private LiteBrowserClient liteBrowserClient;
 
     public URLBarPanel(LiteBrowserClient liteBrowserClient){
@@ -64,6 +66,10 @@ public class URLBarPanel extends JPanel {
         finishButton = new JButton("End Session");
         finishButton.addActionListener(evtListener);
         add(finishButton);
+
+        exitButton = new JButton("Exit");
+        exitButton.addActionListener(evtListener);
+        add(exitButton);
     }
 
     public JButton getFinishButton() {
@@ -77,4 +83,9 @@ public class URLBarPanel extends JPanel {
     public JTextField getUrlField() {
         return urlField;
     }
+
+    public JButton getExitButton() {
+        return exitButton;
+    }
+
 }
