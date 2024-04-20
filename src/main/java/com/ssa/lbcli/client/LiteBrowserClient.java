@@ -1,6 +1,7 @@
 package com.ssa.lbcli.client;
 
 import com.ssa.lbcli.listeners.BrowserFocusHandlerAdapter;
+import com.ssa.lbcli.listeners.BrowserKeyboardHandler;
 import com.ssa.lbcli.listeners.BrowserLifeSpanHandler;
 import me.friwi.jcefmaven.CefAppBuilder;
 import me.friwi.jcefmaven.CefInitializationException;
@@ -10,6 +11,8 @@ import org.cef.CefApp;
 import org.cef.CefClient;
 import org.cef.browser.CefBrowser;
 import org.cef.browser.CefMessageRouter;
+import org.cef.handler.CefKeyboardHandlerAdapter;
+
 import java.awt.*;
 import java.io.IOException;
 
@@ -65,6 +68,8 @@ public class LiteBrowserClient {
 
         // Clear focus from the address field when the browser gains focus.
         client_.addFocusHandler(new BrowserFocusHandlerAdapter(this));
+
+        client_.addKeyboardHandler(new BrowserKeyboardHandler());
 
     }
 

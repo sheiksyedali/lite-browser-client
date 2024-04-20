@@ -1,5 +1,8 @@
 package com.ssa.lbcli.process;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,13 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProcessManager {
+    private static final Logger logger = LogManager.getLogger(ProcessManager.class);
     private static List<String> whiteListedServices = new ArrayList<>();
 
-    public ProcessManager(){
-        prepWhitelistedServices();
-    }
-
-    private void prepWhitelistedServices(){
+    static {
         whiteListedServices.add("system");
         whiteListedServices.add("registry");
         whiteListedServices.add("smss.exe");
@@ -29,9 +29,14 @@ public class ProcessManager {
         whiteListedServices.add("javaw.exe");
         whiteListedServices.add("jcef_helper.exe");
         whiteListedServices.add("AutoHotKey.exe");
+
+        //debug
+//        whiteListedServices.add("idea64.exe");
+
     }
     public static void kill(){
         try{
+            logger.info("In processmanager start");
             // Execute a command to list all running tasks
             ProcessBuilder processBuilder = new ProcessBuilder("tasklist");
             processBuilder.redirectErrorStream(true); // Redirect error stream to the input stream
@@ -44,6 +49,7 @@ public class ProcessManager {
                 String service = line.split("\\s+")[0];
                 service = service.trim().toLowerCase();
                 if(!whiteListedServices.contains(service)){
+                    logger.info("Killing: "+service);
                     ProcessBuilder processBuilder1 = new ProcessBuilder("taskkill", "/F", "/IM", service);
                     processBuilder1.inheritIO(); // Redirect input/output to the current process
                     Process process1 = processBuilder1.start();
@@ -53,9 +59,9 @@ public class ProcessManager {
             }
 
             // Wait for the process to complete
-            process.waitFor();
+//            process.waitFor();
 
-
+            logger.info("In processmanager end");
         }catch (Exception ex){
             ex.printStackTrace();
         }

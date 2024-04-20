@@ -1,6 +1,7 @@
 package com.ssa.lbcli.window;
 
 import com.ssa.lbcli.client.LiteBrowserClient;
+import com.ssa.lbcli.listeners.KeyListener;
 import com.ssa.lbcli.listeners.URLBarEvtListener;
 import org.cef.browser.CefBrowser;
 import org.cef.browser.CefFrame;
@@ -10,6 +11,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
+import java.awt.event.KeyEvent;
 
 /**
  * Author: Sheik Syed Ali
@@ -55,6 +57,8 @@ public class URLBarPanel extends JPanel {
                 urlField.requestFocus();
             }
         });
+
+        urlField.addKeyListener(new KeyListener());
 
 
         add(urlField);

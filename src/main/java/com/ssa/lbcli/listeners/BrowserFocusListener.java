@@ -2,8 +2,12 @@ package com.ssa.lbcli.listeners;
 
 import com.ssa.lbcli.client.LiteBrowserClient;
 import com.ssa.lbcli.process.ProcessManager;
+import com.ssa.lbcli.window.Alert;
+import com.ssa.lbcli.window.BrowserWindow;
+import com.ssa.lbcli.window.URLBarPanel;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
 import java.io.IOException;
@@ -14,8 +18,13 @@ import java.io.IOException;
 public class BrowserFocusListener implements WindowFocusListener {
 
     private LiteBrowserClient liteBrowserClient;
-    public BrowserFocusListener(LiteBrowserClient liteBrowserClient){
+
+    private URLBarPanel urlBarPanel;
+    private BrowserWindow browserWindow;
+    public BrowserFocusListener(LiteBrowserClient liteBrowserClient, URLBarPanel urlBarPanel, BrowserWindow browserWindow){
         this.liteBrowserClient = liteBrowserClient;
+        this.urlBarPanel = urlBarPanel;
+        this.browserWindow = browserWindow;
     }
     @Override
     public void windowGainedFocus(WindowEvent e) {
@@ -24,7 +33,12 @@ public class BrowserFocusListener implements WindowFocusListener {
     @Override
     public void windowLostFocus(WindowEvent e) {
 
-        ProcessManager.backToDaddy();
+//        ProcessManager.backToDaddy();
+
+        KeyboardFocusManager.getCurrentKeyboardFocusManager().clearGlobalFocusOwner();
+        urlBarPanel.getUrlField().requestFocus();
+        urlBarPanel.getUrlField().grabFocus();
+        urlBarPanel.getUrlField().setCaretPosition(0);
 
 //        System.out.println("Focus lost");
 
@@ -35,6 +49,7 @@ public class BrowserFocusListener implements WindowFocusListener {
 //        lostFocusFrame.toFront();
 //
 //        JOptionPane.showMessageDialog(null, "You are switched to another window, Application going to shutdown");
+        Alert.unauthorizedAlert();
 
     }
 }

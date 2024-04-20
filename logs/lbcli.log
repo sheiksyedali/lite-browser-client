@@ -1,0 +1,1292 @@
+2024-04-10 18:22:35,606 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 18:22:35,610 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Disable keys ->
+2024-04-10 18:22:35,610 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 18:22:35,611 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 18:22:35,662 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:22:35,662 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:22:35,662 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:22:35,662 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:22:35,662 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:22:35,888 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 18:22:36,231 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:22:36,543 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 18:22:36,885 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 18:22:37,137 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 18:22:37,376 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 18:22:37,617 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 18:22:37,870 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:22:38,118 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:22:38,372 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:22:38,630 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 18:22:38,884 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 18:22:39,153 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:22:39,407 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 18:22:39,643 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 18:22:39,886 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:22:40,138 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 18:22:40,547 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 18:22:40,811 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 18:22:41,091 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 18:22:41,353 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 18:22:41,616 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 18:22:41,858 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 18:22:42,120 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 18:22:42,373 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 18:22:42,625 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 18:22:42,897 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 18:22:43,157 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 18:22:43,423 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 18:22:43,703 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 18:22:43,958 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 18:22:44,211 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 18:22:44,482 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 18:23:11,511 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 18:23:11,517 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:23:11,517 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:23:11,517 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:23:11,517 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:23:11,517 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:23:11,517 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 18:23:11,518 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 18:23:11,793 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 18:23:11,895 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:23:12,203 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 18:23:12,552 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 18:23:12,820 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 18:23:13,094 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 18:23:13,370 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 18:23:13,632 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:23:13,882 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:23:14,122 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:14,358 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 18:23:14,618 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 18:23:14,867 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:15,114 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 18:23:15,379 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 18:23:15,614 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:15,876 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 18:23:16,173 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 18:23:16,506 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 18:23:16,787 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 18:23:17,061 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 18:23:17,217 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 18:23:17,515 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 18:23:17,783 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 18:23:18,044 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 18:23:18,322 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 18:23:18,572 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 18:23:18,839 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 18:23:19,108 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 18:23:19,376 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 18:23:19,646 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 18:23:19,909 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 18:23:20,146 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 18:23:20,415 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 18:23:20,684 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 18:23:20,936 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 18:23:21,188 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 18:23:21,456 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 18:23:42,907 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 18:23:42,910 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:23:42,910 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:23:42,910 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:23:42,910 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:23:42,910 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:23:42,910 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 18:23:42,911 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 18:23:43,137 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 18:23:43,323 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:23:43,540 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 18:23:43,917 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 18:23:44,169 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 18:23:44,418 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 18:23:44,682 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 18:23:44,942 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:23:45,189 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 18:23:45,436 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:45,678 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 18:23:45,912 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 18:23:46,166 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:46,408 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 18:23:46,647 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 18:23:46,958 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 18:23:47,217 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 18:23:47,467 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 18:23:47,722 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 18:23:47,987 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 18:23:48,245 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 18:23:48,504 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 18:23:48,785 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 18:23:49,055 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 18:23:49,308 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 18:23:49,559 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 18:23:49,833 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 18:23:50,082 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 18:23:50,352 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 18:23:50,622 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 18:23:50,890 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 18:23:51,159 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 18:23:51,397 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 18:23:51,668 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 18:23:51,937 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 18:23:52,206 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 18:23:52,459 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 18:23:52,726 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 18:23:52,988 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 18:23:53,243 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 18:23:53,494 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 18:23:53,760 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 18:23:54,031 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 18:23:54,280 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 18:23:54,544 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 18:23:54,818 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 18:23:55,085 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 18:23:55,342 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 18:23:55,609 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 18:23:55,857 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 18:23:56,116 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 18:23:56,363 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 18:23:56,623 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 18:23:56,888 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 18:23:57,140 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 18:23:57,391 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 18:23:57,659 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dashost.exe
+2024-04-10 18:23:57,916 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: officeclicktorun.exe
+2024-04-10 18:23:58,166 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchindexer.exe
+2024-04-10 18:23:58,418 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: mousocoreworker.exe
+2024-04-10 18:23:58,672 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 18:23:58,927 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 18:23:59,177 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: sihost.exe
+2024-04-10 18:23:59,434 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskmgr.exe
+2024-04-10 18:23:59,717 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dllhost.exe
+2024-04-10 18:24:00,001 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchhost.exe
+2024-04-10 18:24:00,339 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: startmenuexperiencehost.e
+2024-04-10 18:24:00,609 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 18:24:00,868 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: widgets.exe
+2024-04-10 18:24:01,140 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 18:24:01,404 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dllhost.exe
+2024-04-10 18:24:01,643 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: notepad++.exe
+2024-04-10 18:24:01,908 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: whatsapp.exe
+2024-04-10 18:24:02,161 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 18:24:02,412 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: widgetservice.exe
+2024-04-10 18:24:02,666 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:02,903 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:03,172 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:03,425 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:03,662 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:03,910 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 18:24:04,136 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dllhost.exe
+2024-04-10 18:24:04,388 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: appmonitorplugin.exe
+2024-04-10 18:24:04,634 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: useroobebroker.exe
+2024-04-10 18:24:04,888 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wpscloudsvr.exe
+2024-04-10 18:24:05,156 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wpscenter.exe
+2024-04-10 18:24:05,418 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lockapp.exe
+2024-04-10 18:24:05,704 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 18:24:06,050 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedge.exe
+2024-04-10 18:24:34,817 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:24:34,820 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:24:34,820 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:24:34,820 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:24:34,820 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:24:35,188 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:25:40,564 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:25:40,567 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:25:40,567 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:25:40,567 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:25:40,567 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:25:40,888 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:27:24,431 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:27:24,433 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:27:24,433 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:27:24,434 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:27:24,434 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:27:24,781 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:28:48,557 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:28:48,559 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:28:48,559 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:28:48,559 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:28:48,559 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:28:48,864 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:29:59,772 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:29:59,774 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:29:59,775 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:29:59,775 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:29:59,775 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:30:00,068 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:30:49,697 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:30:49,700 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:30:49,700 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:30:49,700 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:30:49,700 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:30:49,982 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:31:31,659 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:31:31,662 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:31:31,663 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:31:31,663 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:31:31,663 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:31:31,970 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:31:59,270 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:31:59,273 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:31:59,273 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:31:59,273 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:31:59,273 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:31:59,563 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:36:51,437 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:36:51,440 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:36:51,440 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:36:51,440 [main] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:36:51,440 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:36:51,781 [main] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:40:38,962 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:40:38,965 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:40:38,965 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:40:38,965 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:40:38,965 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:40:39,270 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:41:34,989 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:41:34,991 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:41:34,991 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:41:34,991 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:41:34,992 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:41:35,285 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:42:18,898 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:42:18,901 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:42:18,901 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:42:18,901 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:42:18,901 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:42:19,193 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:42:40,273 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:42:40,275 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:42:40,275 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:42:40,275 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:42:40,275 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:42:40,578 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:44:38,137 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:44:38,140 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:44:38,140 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:44:38,140 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:44:38,140 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:44:38,440 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:46:36,729 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:46:36,731 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:46:36,731 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:46:36,732 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:46:36,732 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:46:37,034 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:47:17,516 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:47:17,518 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:47:17,518 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:47:17,518 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:47:17,519 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:47:17,822 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:47:32,497 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:47:32,499 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:47:32,499 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:47:32,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:47:32,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:47:32,807 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:47:50,244 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:47:50,246 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:47:50,246 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:47:50,247 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:47:50,247 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:47:50,537 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:49:05,282 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:49:05,284 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:49:05,284 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:49:05,284 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:49:05,284 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:49:05,575 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:50:45,173 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:50:45,175 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:50:45,175 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:50:45,175 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:50:45,175 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:50:45,461 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:51:16,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:51:16,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:51:16,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:51:16,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:51:16,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:51:17,124 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 18:51:59,979 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 18:51:59,982 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 18:51:59,982 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 18:51:59,982 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 18:51:59,982 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 18:52:00,287 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:06:40,289 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:06:40,291 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:06:40,291 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:06:40,291 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:06:40,291 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:06:40,583 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:07:20,734 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:07:20,737 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:07:20,737 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:07:20,737 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:07:20,737 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:07:21,043 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:12:13,491 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:12:13,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:12:13,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:12:13,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:12:13,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:12:13,788 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:12:50,521 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:12:50,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:12:50,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:12:50,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:12:50,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:12:50,846 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:35:38,910 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:35:38,913 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:35:38,913 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:35:38,913 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:35:38,913 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:35:39,206 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:36:26,968 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:36:26,970 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:36:26,970 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:36:26,970 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:36:26,970 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:36:27,258 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:36:56,412 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:36:56,415 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:36:56,415 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:36:56,415 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:36:56,415 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:36:56,694 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:37:21,471 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:37:21,473 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:37:21,473 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:37:21,473 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:37:21,473 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:37:21,765 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:38:43,589 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:38:43,591 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:38:43,591 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:38:43,591 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:38:43,591 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:38:43,873 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:39:14,756 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:39:14,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:39:14,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:39:14,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:39:14,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:39:15,046 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:40:34,539 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:40:34,541 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:40:34,541 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:40:34,541 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:40:34,541 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:40:34,847 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:41:21,444 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:41:21,447 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:41:21,447 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:41:21,447 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:41:21,447 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:41:21,733 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:42:11,823 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:42:11,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:42:11,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:42:11,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:42:11,826 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:42:12,130 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:42:42,577 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:42:42,580 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:42:42,580 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:42:42,580 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:42:42,580 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:42:42,863 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:43:17,076 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:43:17,078 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:43:17,078 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:43:17,079 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:43:17,079 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:43:17,376 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:44:03,955 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:44:03,957 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:44:03,957 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:44:03,957 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:44:03,957 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:44:04,236 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:44:23,535 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:44:23,537 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:44:23,538 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:44:23,538 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:44:23,538 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:44:23,833 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:44:50,130 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:44:50,133 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:44:50,133 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:44:50,133 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:44:50,133 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:44:50,438 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:45:09,604 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:45:09,606 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:45:09,607 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:45:09,607 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:45:09,607 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:45:09,910 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:45:29,157 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:45:29,160 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:45:29,160 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:45:29,160 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:45:29,160 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:45:29,456 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:45:47,222 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:45:47,224 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:45:47,224 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:45:47,224 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:45:47,224 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:45:47,526 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:48:44,129 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:48:44,131 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:48:44,132 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:48:44,132 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:48:44,132 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:48:44,434 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:49:28,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:49:28,761 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:49:28,761 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:49:28,761 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:49:28,762 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:49:29,067 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:50:32,699 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:50:32,701 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:50:32,701 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:50:32,701 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:50:32,701 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:50:33,000 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:50:53,767 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:50:53,770 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:50:53,770 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:50:53,770 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:50:53,770 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:50:54,074 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:51:12,247 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:51:12,249 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:51:12,249 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:51:12,249 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:51:12,249 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:51:12,540 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:51:27,006 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:51:27,008 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:51:27,008 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:51:27,008 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:51:27,008 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:51:27,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:52:00,465 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:52:00,468 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:52:00,468 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:52:00,468 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:52:00,468 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:52:00,759 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:52:52,333 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:52:52,336 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:52:52,336 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:52:52,336 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:52:52,336 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:52:52,626 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:53:25,541 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:53:25,544 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:53:25,544 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:53:25,544 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:53:25,544 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:53:25,840 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:53:39,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:53:39,940 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:53:39,940 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:53:39,940 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:53:39,940 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:53:40,236 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:55:40,303 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:55:40,305 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:55:40,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:55:40,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:55:40,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:55:40,637 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:55:54,034 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:55:54,036 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:55:54,036 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:55:54,037 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:55:54,037 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:55:54,311 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:56:03,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:56:03,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:56:03,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:56:03,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:56:03,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:56:04,236 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 19:56:33,934 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 19:56:33,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 19:56:33,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 19:56:33,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 19:56:33,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 19:56:34,245 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:15:49,753 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:15:49,755 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:15:49,756 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:15:49,756 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:15:49,756 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:15:50,071 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:16:31,646 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:16:31,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:16:31,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:16:31,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:16:31,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:16:31,943 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:17:04,275 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:17:04,277 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:17:04,277 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:17:04,277 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:17:04,277 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:17:04,575 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:18:13,117 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:18:13,120 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:18:13,120 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:18:13,120 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:18:13,120 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:18:13,416 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:18:31,136 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:18:31,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:18:31,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:18:31,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:18:31,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:18:31,439 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:18:57,925 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:18:57,927 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:18:57,927 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:18:57,927 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:18:57,927 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:18:58,220 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:20:23,980 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:20:23,983 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:20:23,983 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:20:23,983 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:20:23,983 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:20:24,279 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:25:49,922 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:25:49,924 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:25:49,924 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:25:49,924 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:25:49,924 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:25:50,200 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:26:20,490 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:26:20,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:26:20,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:26:20,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:26:20,493 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:26:20,774 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:26:38,088 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:26:38,090 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:26:38,090 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:26:38,091 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:26:38,091 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:26:38,372 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:28:15,611 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:28:15,614 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:28:15,614 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:28:15,614 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:28:15,614 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:28:15,884 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:28:31,840 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:28:31,842 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:28:31,842 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:28:31,842 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:28:31,842 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:28:32,111 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:29:14,975 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:29:14,977 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:29:14,977 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:29:14,977 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:29:14,978 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:29:15,248 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:29:31,999 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:29:32,001 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:29:32,001 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:29:32,001 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:29:32,001 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:29:32,278 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:29:44,608 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:29:44,608 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:29:44,608 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:29:44,608 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:29:44,608 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:29:44,892 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:30:40,370 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:30:40,373 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:30:40,373 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:30:40,373 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:30:40,373 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:30:40,642 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:30:59,136 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:30:59,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:30:59,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:30:59,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:30:59,139 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:30:59,417 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:31:15,228 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:31:15,228 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:31:15,228 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:31:15,228 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:31:15,228 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:31:15,512 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:31:30,646 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:31:30,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:31:30,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:31:30,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:31:30,648 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:31:30,926 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:32:41,432 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:32:41,434 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:32:41,434 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:32:41,434 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:32:41,435 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:32:41,709 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:33:01,885 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:33:01,888 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:33:01,888 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:33:01,888 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:33:01,888 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:33:02,161 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:34:10,104 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:34:10,106 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:34:10,106 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:34:10,106 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:34:10,106 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:34:10,385 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:34:43,872 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:34:43,874 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:34:43,874 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:34:43,874 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:34:43,874 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:34:44,144 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:35:03,977 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:35:03,979 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:35:03,979 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:35:03,979 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:35:03,979 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:35:04,246 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:55:23,092 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:55:23,095 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:55:23,095 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:55:23,095 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:55:23,095 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:55:23,382 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:57:27,915 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:57:27,917 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:57:27,917 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:57:27,917 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:57:27,917 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:57:28,220 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:57:52,886 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:57:52,889 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:57:52,889 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:57:52,889 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:57:52,889 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:57:53,192 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 20:58:24,856 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 20:58:24,859 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 20:58:24,859 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 20:58:24,859 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 20:58:24,859 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 20:58:25,164 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:00:57,521 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:00:57,523 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:00:57,523 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:00:57,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:00:57,524 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:00:57,805 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:01:14,960 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:01:14,962 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:01:14,962 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:01:14,962 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:01:14,962 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:01:15,241 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:01:50,941 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:01:50,944 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:01:50,944 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:01:50,944 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:01:50,944 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:01:51,233 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:02:24,117 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:02:24,119 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:02:24,119 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:02:24,119 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:02:24,119 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:02:24,413 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:03:24,304 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:03:24,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:03:24,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:03:24,306 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:03:24,307 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:03:24,584 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:08:16,611 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:08:16,613 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:08:16,613 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:08:16,613 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:08:16,613 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:08:16,900 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:10:52,574 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:10:52,576 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:10:52,576 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:10:52,577 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:10:52,577 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:10:52,854 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:12:30,595 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:12:30,597 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:12:30,597 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:12:30,598 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:12:30,598 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:12:30,913 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:16:40,738 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:16:40,740 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:16:40,741 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:16:40,741 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:16:40,741 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:16:41,015 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:18:06,547 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:18:06,549 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:18:06,550 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:18:06,550 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:18:06,550 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:18:06,837 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:19:07,006 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:19:07,009 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:19:07,009 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:19:07,009 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:19:07,009 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:19:07,289 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:19:46,121 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:19:46,123 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:19:46,123 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:19:46,123 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:19:46,123 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:19:46,405 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:21:18,722 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:21:18,724 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:21:18,724 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:21:18,725 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:21:18,725 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:21:19,003 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:21:41,063 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:21:41,065 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:21:41,066 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:21:41,066 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:21:41,066 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:21:41,339 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:22:20,677 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:22:20,679 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:22:20,679 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:22:20,679 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:22:20,679 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:22:20,958 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:22:53,664 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:22:53,666 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:22:53,667 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:22:53,667 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:22:53,667 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:22:53,936 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:27:43,771 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:27:43,774 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:27:43,774 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:27:43,774 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:27:43,774 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:27:44,046 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:29:40,452 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:29:40,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:29:40,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:29:40,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:29:40,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:29:40,736 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:30:18,452 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:30:18,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:30:18,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:30:18,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:30:18,455 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:30:18,733 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:30:53,388 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:30:53,391 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:30:53,391 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:30:53,391 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:30:53,391 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:30:53,669 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:31:37,445 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:31:37,448 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:31:37,448 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:31:37,448 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:31:37,448 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:31:37,734 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:32:16,940 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:32:16,942 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:32:16,943 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:32:16,943 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:32:16,943 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:32:17,230 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:33:08,267 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:33:08,270 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:33:08,270 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:33:08,270 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:33:08,270 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:33:08,546 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:33:53,625 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:33:53,627 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:33:53,628 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:33:53,628 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:33:53,628 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:33:53,946 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:34:43,747 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:34:43,749 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:34:43,749 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:34:43,749 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:34:43,749 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:34:44,029 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:35:34,172 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:35:34,176 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:35:34,176 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:35:34,176 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:35:34,176 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:35:34,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:36:00,656 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:36:00,658 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:36:00,658 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:36:00,658 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:36:00,658 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:36:00,937 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:37:50,623 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:37:50,625 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:37:50,625 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:37:50,625 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:37:50,625 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:37:50,899 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:43:35,023 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:43:35,025 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:43:35,026 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:43:35,026 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:43:35,026 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:43:35,026 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:43:35,026 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:43:35,026 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:43:35,282 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:43:35,373 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:43:35,711 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:43:36,002 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:43:36,271 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:43:36,539 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:43:36,828 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:43:37,081 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:43:37,352 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:43:37,606 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:43:37,862 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:43:38,124 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:43:38,385 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:43:38,650 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:43:38,910 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:43:39,171 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:43:39,423 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:43:39,688 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:43:39,947 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:43:40,214 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:43:40,473 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:43:40,744 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:43:41,023 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:43:41,279 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:43:41,548 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:43:41,830 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:43:42,115 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:43:42,368 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:43:42,636 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:43:42,904 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:43:43,174 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:43:43,410 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:43:43,688 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:43:43,952 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:43:44,220 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:43:44,484 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:43:44,769 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:43:45,039 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:43:45,306 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:43:45,572 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:43:45,841 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:43:46,095 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:43:46,379 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:43:46,647 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:43:46,917 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:43:47,201 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:43:47,455 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:43:47,709 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:43:47,993 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:43:48,261 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:43:48,553 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:43:48,813 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:43:49,099 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 21:43:49,368 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 21:43:49,653 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 21:43:49,922 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:43:50,207 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dashost.exe
+2024-04-10 21:43:50,482 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: officeclicktorun.exe
+2024-04-10 21:43:50,743 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchindexer.exe
+2024-04-10 21:43:51,020 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: mousocoreworker.exe
+2024-04-10 21:43:51,292 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:43:51,561 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:43:51,838 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskmgr.exe
+2024-04-10 21:43:52,114 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: eclipse.exe
+2024-04-10 21:43:52,410 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: eclipse.exe
+2024-04-10 21:43:52,740 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fsnotifier.exe
+2024-04-10 21:43:58,983 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:43:58,986 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:43:58,986 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:43:58,986 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:43:58,986 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:43:58,986 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:43:58,986 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:43:58,987 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:43:59,242 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:43:59,312 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:43:59,602 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:43:59,988 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:44:00,265 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:44:00,555 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:44:00,863 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:44:01,168 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:44:01,423 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:44:01,696 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:01,958 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:44:02,207 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:44:02,476 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:02,736 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:44:02,981 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:44:03,240 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:03,497 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:44:03,751 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:44:04,001 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:44:04,262 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:44:04,531 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:44:04,799 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:44:05,051 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:44:05,326 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:44:05,588 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:44:05,858 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:44:06,140 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:44:06,408 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:44:06,681 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:44:06,944 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:44:07,217 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:44:07,464 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:44:07,716 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:44:08,000 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:44:08,266 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:44:08,535 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:44:08,804 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:44:09,057 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:44:09,325 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:44:09,609 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:44:09,887 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:44:10,191 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:44:10,459 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:44:10,720 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:44:10,966 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:44:11,231 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:44:11,486 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:44:11,754 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:44:12,023 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:44:12,261 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:44:12,543 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:44:12,807 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:44:13,064 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 21:44:13,333 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 21:44:13,607 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 21:44:13,882 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:44:14,149 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dashost.exe
+2024-04-10 21:44:14,420 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: officeclicktorun.exe
+2024-04-10 21:44:14,705 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchindexer.exe
+2024-04-10 21:44:14,974 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: mousocoreworker.exe
+2024-04-10 21:44:15,229 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:44:15,497 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:44:15,765 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskmgr.exe
+2024-04-10 21:44:16,096 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: eclipse.exe
+2024-04-10 21:44:19,864 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:44:19,880 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:44:19,880 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:44:19,880 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:44:19,880 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:44:19,880 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:44:19,880 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:44:19,880 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:44:20,132 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:44:20,205 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:44:20,586 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:44:20,864 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:44:21,129 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:44:21,390 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:44:21,714 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:44:22,027 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:44:22,312 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:44:22,585 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:22,858 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:44:23,144 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:44:23,427 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:23,708 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:44:23,981 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:44:24,250 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:44:24,530 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:44:24,826 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:44:25,097 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:44:25,376 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:44:25,669 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:44:25,931 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:44:26,211 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:44:26,476 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:44:26,739 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:44:27,013 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:44:27,275 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:44:27,560 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:44:27,824 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:44:28,093 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:44:28,349 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:44:28,623 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:44:28,890 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:44:29,169 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:44:29,447 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:44:29,707 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:44:29,958 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:44:30,228 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:44:30,495 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:44:30,747 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:44:31,009 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:44:31,273 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:44:31,552 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:44:31,796 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:44:32,068 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:44:32,315 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:44:32,586 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:44:32,846 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:44:33,122 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:44:33,375 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:44:33,628 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:44:33,901 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:45:07,261 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:45:07,264 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:45:07,264 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:45:07,264 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:45:07,264 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:45:07,264 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:45:07,264 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:45:07,265 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:45:07,522 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:45:07,590 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:45:07,934 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:45:08,236 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:45:08,495 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:45:08,768 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:45:09,058 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:45:09,339 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:45:09,605 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:45:09,859 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:10,106 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:45:10,364 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:45:10,618 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:10,878 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:45:11,128 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:45:11,399 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:11,638 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:45:11,894 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:45:12,158 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:45:12,431 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:45:12,699 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:45:12,976 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:45:13,245 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:45:13,533 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:45:13,780 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:45:14,046 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:45:14,285 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:45:14,568 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:45:14,836 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:45:15,118 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:45:15,398 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:45:15,672 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:45:15,956 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:45:16,228 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:45:16,564 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:45:16,855 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:45:17,108 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:45:17,359 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:45:17,613 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:45:17,881 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:45:18,149 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:45:18,414 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:45:18,687 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:45:18,954 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:45:19,224 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:45:19,493 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:45:19,769 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:45:20,023 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:45:20,292 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:45:20,565 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:45:20,834 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:45:21,111 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:45:21,357 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 21:45:21,636 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 21:45:21,944 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 21:45:40,497 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:45:40,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:45:40,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:45:40,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:45:40,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:45:40,500 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:45:40,500 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:45:40,500 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:45:40,740 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:45:40,840 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:45:41,085 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:45:41,451 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:45:41,716 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:45:41,993 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:45:42,284 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:45:42,553 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:45:42,829 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:45:43,074 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:43,319 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:45:43,572 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:45:43,830 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:44,089 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:45:44,341 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:45:44,607 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:45:44,871 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:45:45,122 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:45:45,402 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:45:45,678 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:45:45,929 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:45:46,182 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:45:46,450 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:45:46,718 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:45:46,990 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:45:47,258 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:45:47,532 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:45:47,791 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:45:48,061 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:45:48,327 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:45:48,611 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:45:48,879 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:45:49,148 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:45:49,417 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:45:49,699 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:45:49,987 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:45:50,254 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:45:50,520 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:45:50,789 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:45:51,056 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:45:51,323 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:45:51,575 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:45:51,857 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:45:52,109 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:45:52,362 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:45:52,614 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:45:52,890 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:45:53,166 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:45:53,434 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:45:53,702 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:45:53,972 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:45:54,236 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:45:54,504 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 21:45:54,787 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 21:45:55,040 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 21:45:55,291 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:45:55,546 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dashost.exe
+2024-04-10 21:45:55,803 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: officeclicktorun.exe
+2024-04-10 21:45:56,082 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchindexer.exe
+2024-04-10 21:45:56,318 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: mousocoreworker.exe
+2024-04-10 21:45:56,570 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:45:56,839 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskhostw.exe
+2024-04-10 21:45:57,107 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: taskmgr.exe
+2024-04-10 21:45:57,359 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: eclipse.exe
+2024-04-10 21:45:57,642 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: sihost.exe
+2024-04-10 21:45:57,913 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dllhost.exe
+2024-04-10 21:45:58,226 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: searchhost.exe
+2024-04-10 21:45:58,533 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: startmenuexperiencehost.e
+2024-04-10 21:45:58,811 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: widgets.exe
+2024-04-10 21:45:59,080 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 21:45:59,446 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 21:45:59,820 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dllhost.exe
+2024-04-10 21:46:00,407 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: widgetservice.exe
+2024-04-10 21:46:00,766 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:01,172 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:01,751 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:01,985 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:02,251 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:02,439 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedgewebview2.exe
+2024-04-10 21:46:02,595 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: whatsapp.exe
+2024-04-10 21:46:02,834 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: runtimebroker.exe
+2024-04-10 21:46:03,126 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: useroobebroker.exe
+2024-04-10 21:46:03,407 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedge.exe
+2024-04-10 21:46:03,705 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedge.exe
+2024-04-10 21:46:04,104 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedge.exe
+2024-04-10 21:46:04,387 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: msedge.exe
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process ->
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate VM ->
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - OS: Windows 11
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - VM : OpenJDK 64-Bit Server VM
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Validate internet ->
+2024-04-10 21:46:08,402 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Initialize browser ->
+2024-04-10 21:46:08,402 [Thread-0] INFO  com.ssa.lbcli.startup.StartUpChecker - Kill process asynchronously
+2024-04-10 21:46:08,402 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - In processmanager start
+2024-04-10 21:46:08,620 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: 
+2024-04-10 21:46:08,757 [AWT-EventQueue-0] INFO  com.ssa.lbcli.LiteBrowserClientApp - Configure scheduler ->
+2024-04-10 21:46:08,961 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: image
+2024-04-10 21:46:09,344 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: =========================
+2024-04-10 21:46:09,585 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: secure
+2024-04-10 21:46:09,825 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: lsaiso.exe
+2024-04-10 21:46:10,071 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: winlogon.exe
+2024-04-10 21:46:10,312 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:46:10,542 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: fontdrvhost.exe
+2024-04-10 21:46:10,775 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:46:11,008 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dwm.exe
+2024-04-10 21:46:11,248 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelcphdcpsvc.exe
+2024-04-10 21:46:11,495 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:46:11,733 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: memory
+2024-04-10 21:46:11,971 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxcuiservicen.exe
+2024-04-10 21:46:12,203 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wudfhost.exe
+2024-04-10 21:46:12,436 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhactivedefense.exe
+2024-04-10 21:46:12,667 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wlanext.exe
+2024-04-10 21:46:12,901 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: conhost.exe
+2024-04-10 21:46:13,148 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: spoolsv.exe
+2024-04-10 21:46:13,375 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accsvc.exe
+2024-04-10 21:46:13,613 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dtsapo4service.exe
+2024-04-10 21:46:13,850 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: gtfidoservice.exe
+2024-04-10 21:46:14,090 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: esif_uf.exe
+2024-04-10 21:46:14,342 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: bridge_service.exe
+2024-04-10 21:46:14,567 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: oneapp.igcc.winservice.ex
+2024-04-10 21:46:14,804 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: intelaudioservice.exe
+2024-04-10 21:46:15,061 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:46:15,292 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nswscsvc.exe
+2024-04-10 21:46:15,530 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiregistrationservice.ex
+2024-04-10 21:46:15,781 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rtkauduservice64.exe
+2024-04-10 21:46:16,041 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: rstmwservice.exe
+2024-04-10 21:46:16,275 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wslservice.exe
+2024-04-10 21:46:16,537 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: jhi_service.exe
+2024-04-10 21:46:16,793 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: aggregatorhost.exe
+2024-04-10 21:46:17,039 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhwatchdog.exe
+2024-04-10 21:46:17,281 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:46:17,591 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:46:17,843 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler.exe
+2024-04-10 21:46:18,091 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: googlecrashhandler64.exe
+2024-04-10 21:46:18,332 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: nortonsecurity.exe
+2024-04-10 21:46:18,587 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: presentationfontcache.exe
+2024-04-10 21:46:18,833 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ctfmon.exe
+2024-04-10 21:46:19,071 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: securityhealthservice.exe
+2024-04-10 21:46:19,307 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: locationnotificationwindo
+2024-04-10 21:46:19,543 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qhsafetray.exe
+2024-04-10 21:46:19,772 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: popwndlog.exe
+2024-04-10 21:46:20,004 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qasvc.exe
+2024-04-10 21:46:20,274 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: qaadminagent.exe
+2024-04-10 21:46:20,520 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: igfxextn.exe
+2024-04-10 21:46:20,799 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: unsecapp.exe
+2024-04-10 21:46:21,050 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: storpsctl.exe
+2024-04-10 21:46:21,317 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: accstd.exe
+2024-04-10 21:46:21,628 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: ubtservice.exe
+2024-04-10 21:46:21,970 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: vmcompute.exe
+2024-04-10 21:46:22,241 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: wmiprvse.exe
+2024-04-10 21:46:22,581 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: dashost.exe
+2024-04-10 21:46:22,895 [Thread-0] INFO  com.ssa.lbcli.process.ProcessManager - Killing: officeclicktorun.exe

@@ -15,10 +15,20 @@ public class StartUpChecker {
     private final Logger logger = LogManager.getLogger(StartUpChecker.class);
 
     public boolean isEligible(){
-        ProcessManager.kill();
-        disableKeys();
+        logger.info("Kill process ->");
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                logger.info("Kill process asynchronously");
+                ProcessManager.kill();
+            }
+        }).start();
+
+//        logger.info("Disable keys ->");
+//        disableKeys();
+        logger.info("Validate VM ->");
         noVMHost();
-        //change this later to check both
+        logger.info("Validate internet ->");
         return disabledInternet();
 //        return true;
     }
