@@ -6,7 +6,7 @@ import com.ssa.lbcli.process.ProcessManager;
 public class ShutdownListener {
 
     public void shutDown(boolean notify){
-        killAHK();
+//        killAHK();
         if(notify){
             notifyToService();
         }

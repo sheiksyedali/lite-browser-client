@@ -13,7 +13,8 @@ public class ProcessManager {
     private static final Logger logger = LogManager.getLogger(ProcessManager.class);
     private static List<String> whiteListedServices = new ArrayList<>();
 
-    static {
+//    static {
+    public ProcessManager() {
         whiteListedServices.add("system");
         whiteListedServices.add("registry");
         whiteListedServices.add("smss.exe");
@@ -34,7 +35,7 @@ public class ProcessManager {
 //        whiteListedServices.add("idea64.exe");
 
     }
-    public static void kill(){
+    public void kill(){
         try{
             logger.info("In processmanager start");
             // Execute a command to list all running tasks
@@ -50,10 +51,10 @@ public class ProcessManager {
                 service = service.trim().toLowerCase();
                 if(!whiteListedServices.contains(service)){
                     logger.info("Killing: "+service);
-                    ProcessBuilder processBuilder1 = new ProcessBuilder("taskkill", "/F", "/IM", service);
-                    processBuilder1.inheritIO(); // Redirect input/output to the current process
-                    Process process1 = processBuilder1.start();
-                    process1.waitFor(); // Wait for the process to complete
+//                    ProcessBuilder processBuilder1 = new ProcessBuilder("taskkill", "/F", "/IM", service);
+//                    processBuilder1.inheritIO(); // Redirect input/output to the current process
+//                    Process process1 = processBuilder1.start();
+//                    process1.waitFor(); // Wait for the process to complete
                 }
                 System.out.println(line.split("\\s+")[0]);
             }

@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import javax.swing.*;
 import java.io.IOException;
 import java.net.InetAddress;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * Author: Sheik Syed Ali
@@ -16,13 +17,17 @@ public class StartUpChecker {
 
     public boolean isEligible(){
         logger.info("Kill process ->");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                logger.info("Kill process asynchronously");
-                ProcessManager.kill();
-            }
-        }).start();
+        CompletableFuture.runAsync(() -> {
+            logger.info("Kill process asynchronously");
+            new ProcessManager().kill();
+        });
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                logger.info("Kill process asynchronously");
+//                ProcessManager.kill();
+//            }
+//        }).start();
 
 //        logger.info("Disable keys ->");
 //        disableKeys();
