@@ -59,7 +59,8 @@ public class LiteBrowserClient {
         CefMessageRouter msgRouter = CefMessageRouter.create();
         client_.addMessageRouter(msgRouter);
 
-        client_.addLifeSpanHandler(new BrowserLifeSpanHandler());
+        /*prev working version*/
+        /*client_.addLifeSpanHandler(new BrowserLifeSpanHandler());*/
 
 
         browser_ = client_.createBrowser(startURL, useOSR, isTransparent);
@@ -69,7 +70,8 @@ public class LiteBrowserClient {
         // Clear focus from the address field when the browser gains focus.
         client_.addFocusHandler(new BrowserFocusHandlerAdapter(this));
 
-        client_.addKeyboardHandler(new BrowserKeyboardHandler());
+        /*prev working version*/
+        /*client_.addKeyboardHandler(new BrowserKeyboardHandler());*/
 
     }
 

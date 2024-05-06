@@ -58,7 +58,8 @@ public class URLBarPanel extends JPanel {
             }
         });
 
-        urlField.addKeyListener(new KeyListener());
+        /*prev working version*/
+        /*urlField.addKeyListener(new KeyListener());*/
 
 
         add(urlField);

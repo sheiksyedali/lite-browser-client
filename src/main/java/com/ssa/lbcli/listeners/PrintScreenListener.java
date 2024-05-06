@@ -43,6 +43,7 @@ public class PrintScreenListener {
     private User32.LowLevelKeyboardProc keyboardHook = (int nCode, User32.WPARAM wParam, User32.KBDLLHOOKSTRUCT lParam) -> {
         if (nCode >= 0 && wParam.intValue() == WinUser.WM_KEYDOWN) {
             int vkCode = lParam.vkCode;
+            System.out.println("VK Code: "+vkCode+"; allow: "+allowProcessing);
             if (vkCode == 0x2C && allowProcessing) { // Check for Print Screen key (VK_SNAPSHOT)
                 System.out.println("Print Screen key pressed");
                 Alert.unauthorizedAlert();
@@ -57,6 +58,16 @@ public class PrintScreenListener {
                     allowProcessing = true; // Allow processing again after a delay
                 }).start();
                 return new User32.LRESULT(1); // Prevent further processing by the hook
+            }
+
+            if(vkCode>=112 && vkCode<=123){ // F1 - F12
+                Alert.unauthorizedAlert();
+            } /*else if (vkCode == 44) {// Screenshot
+
+            }*/ else if(vkCode == 91){ //Winkey
+                Alert.unauthorizedAlert();
+            } else if(vkCode == 162){ // Ctrl
+                Alert.unauthorizedAlert();
             }
         }
         // Bring the Swing window to the front when it loses focus
